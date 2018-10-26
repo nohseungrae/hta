@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<Pane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphic_p.Icon">
+   <children>
+      <BorderPane style="-fx-background-image: url('file:ppp/라이언.jpg');">
+         <center>
+            <Canvas fx:id="canvas" height="700.0" width="700.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+      <ImageView fitHeight="700.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</Pane>

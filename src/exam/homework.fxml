@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="main" prefHeight="400.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exam.HomeworkController">
+   <children>
+      <Label alignment="CENTER" layoutX="99.0" layoutY="108.0" text="제 1회 중앙에~에 ~~ 에취!! TA 퀴즈 대회 " textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="HCR Dotum" size="40.0" />
+         </font>
+         <effect>
+            <DropShadow height="41.6" radius="44.69" spread="0.99" width="139.16">
+               <input>
+                  <Lighting>
+                     <bumpInput>
+                        <Reflection />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </input>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Label layoutX="99.0" layoutY="200.0" text="과목 : 국어 및 영어">
+         <font>
+            <Font name="HCR Dotum" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="596.0" layoutY="200.0" text="한 문제당 10점">
+         <font>
+            <Font name="HCR Dotum" size="27.0" />
+         </font>
+      </Label>
+      <Group layoutX="-443.0" layoutY="63.0">
+         <children>
+            <Label layoutX="672.0" layoutY="216.0" text="영어 10분">
+               <font>
+                  <Font name="HCR Dotum" size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="542.0" layoutY="184.0" text="제한시간 : 국어 5분">
+               <font>
+                  <Font name="HCR Dotum" size="27.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Label layoutX="734.0" layoutY="364.0" text="주최 : NOZUM">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Arc fx:id="watch" layoutX="465.0" layoutY="247.0" length="356.0" radiusX="50.0" radiusY="50.0" startAngle="92.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Button fx:id="touch" layoutX="377.0" layoutY="316.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="177.0" text="눌러봐">
+         <font>
+            <Font name="HCR Dotum" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="start" layoutX="698.0" layoutY="308.0" mnemonicParsing="false" onAction="#subGo" prefHeight="47.0" prefWidth="73.0" text="시작">
+         <font>
+            <Font name="HCR Dotum" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="giveup" layoutX="788.0" layoutY="308.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="73.0" text="안해">
+         <font>
+            <Font name="HCR Dotum" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane  prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thread_p.TranslateController">
+   <children>
+      <Arc fx:id="arc" fill="DODGERBLUE" layoutX="76.0" layoutY="60.0" length="270.0" radiusX="30.0" radiusY="30.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Button fx:id="start" layoutX="98.0" layoutY="407.0" mnemonicParsing="false" text="시작" />
+      <Button fx:id="pause" layoutX="226.0" layoutY="407.0" mnemonicParsing="false" text="일시정지" />
+      <Button fx:id="stop" layoutX="365.0" layoutY="407.0" mnemonicParsing="false" text="정지" />
+      <Button fx:id="touch" layoutX="484.0" layoutY="13.0" mnemonicParsing="false" prefHeight="94.0" prefWidth="87.0" text="누르지마" />
+      <Button fx:id="fill" layoutX="340.0" layoutY="295.0" mnemonicParsing="false" text="fill" />
+      <Button fx:id="stroke" layoutX="396.0" layoutY="295.0" mnemonicParsing="false" text="stroke" />
+      <Button fx:id="fade" layoutX="484.0" layoutY="295.0" mnemonicParsing="false" text="fade" />
+      <Button fx:id="scale" layoutX="477.0" layoutY="250.0" mnemonicParsing="false" text="scale" />
+      <Button fx:id="rotate" layoutX="396.0" layoutY="250.0" mnemonicParsing="false" text="rotate" />
+      <Arc fx:id="fillarc" fill="DODGERBLUE" layoutX="204.0" layoutY="175.0" length="270.0" radiusX="30.0" radiusY="30.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Arc fx:id="strokearc" fill="DODGERBLUE" layoutX="270.0" layoutY="175.0" length="270.0" radiusX="30.0" radiusY="30.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Arc fx:id="rotatearc" fill="DODGERBLUE" layoutX="270.0" layoutY="107.0" length="270.0" radiusX="30.0" radiusY="30.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Arc fx:id="fadearc" fill="DODGERBLUE" layoutX="344.0" layoutY="175.0" length="270.0" radiusX="30.0" radiusY="30.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Arc fx:id="scalearc" fill="DODGERBLUE" layoutX="344.0" layoutY="107.0" length="270.0" radiusX="30.0" radiusY="30.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+ 
+   </children>
+</AnchorPane>

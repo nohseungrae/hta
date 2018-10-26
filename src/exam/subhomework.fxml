@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="sub" prefHeight="300.0" prefWidth="901.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exam.SubHomeworkController">
+   <children>
+      <ImageView fx:id="english1" fitHeight="300.0" fitWidth="901.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../ppp/영어문제1.png" />
+         </image></ImageView>
+      <Group layoutY="119.0">
+         <children>
+            <RadioButton fx:id="third" layoutX="31.0" layoutY="115.0" mnemonicParsing="false">
+               <toggleGroup>
+                  <ToggleGroup fx:id="toggle" />
+               </toggleGroup></RadioButton>
+            <RadioButton fx:id="fourth" layoutX="32.0" layoutY="148.0" mnemonicParsing="false" toggleGroup="$toggle" />
+            <RadioButton fx:id="second" layoutX="31.0" layoutY="80.0" mnemonicParsing="false" toggleGroup="$toggle" />
+            <RadioButton fx:id="first" layoutX="31.0" layoutY="45.0" mnemonicParsing="false" toggleGroup="$toggle" />
+         </children>
+      </Group>
+      <Button fx:id="next" layoutX="852.0" layoutY="259.0" mnemonicParsing="false" onAction="#sub1Go" text="▶" />
+   </children>
+</AnchorPane>

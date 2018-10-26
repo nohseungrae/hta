@@ -1,0 +1,6 @@
+@charset "EUC-KR";
+
+button#Lb1{
+	-fx-font-family:serif;
+	-fx-font-size:24pt;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="game" prefHeight="700.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thread_p.CrushWallSub">
+   <children>
+      <Pane fx:id="bottom" focusTraversable="true"  layoutX="185.0" layoutY="600.0" prefHeight="30.0" prefWidth="130.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff5900" height="30.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" width="130.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="wall" focusTraversable="true"  layoutX="185.0" layoutY="89.0" prefHeight="41.0" prefWidth="130.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b8c3cd" height="41.0" stroke="BLACK" strokeType="INSIDE" width="130.0" />
+         </children>
+      </Pane>
+      <Pane  fx:id="ball" focusTraversable="true" layoutX="233.0" layoutY="550.0" prefHeight="30.0" prefWidth="35.0">
+         <children>
+            <Circle fill="WHITE" radius="15.0" stroke="BLACK" strokeType="INSIDE" translateX="18.0" translateY="15.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

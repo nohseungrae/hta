@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Entrance">
+   <children>
+   <Pane fx:id="regist" prefHeight="750.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+      <children>
+            <ComboBox fx:id="email" layoutX="395.0" layoutY="315.0" prefHeight="29.0" prefWidth="132.0">
+            <items>
+            <FXCollections fx:factory="observableArrayList">
+       
+            <String fx:value="gmail.com" />
+			<String fx:value="naver.com" />
+			<String fx:value="daum.net" />
+			<String fx:value="zum.com" />
+			<String fx:id="input" fx:value="직접입력" />
+            </FXCollections>
+            </items>
+            </ComboBox>
+         <CheckBox fx:id="check" layoutX="202.0" layoutY="500.0" mnemonicParsing="false" text="이메일 수신동의" />
+         <Label fx:id="nozum" layoutX="259.0" layoutY="69.0" text="NOZUM" textFill="#004dff">
+            <font>
+               <Font size="36.0" />
+            </font>
+         </Label>
+         <Label layoutX="80.0" layoutY="135.0" text="아이디">
+            <font>
+               <Font size="18.0" />
+            </font>
+         </Label>
+         <Label layoutX="80.0" layoutY="195.0" text="이   름">
+            <font>
+               <Font size="18.0" />
+            </font>
+         </Label>
+         <Button fx:id="idconfirm" layoutX="385.0" layoutY="130.0" mnemonicParsing="false" text="중복확인">
+          </Button>
+            <TextField fx:id="nana" layoutX="200.0" layoutY="190.0" />
+            <TextField fx:id="idid" layoutX="200.0" layoutY="130.0" />
+            <Label layoutX="80.0" layoutY="240.0" text="비밀번호">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="80.0" layoutY="275.0" text="비밀번호 확인">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="400.0" layoutY="242.0" text="8자 이상 16자 이내로 입력하십시오.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="386.0" layoutY="240.0" text="*">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="386.0" layoutY="275.0" text="*">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <MenuBar prefHeight="32.0" prefWidth="650.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <Label layoutX="400.0" layoutY="276.0" text="비밀번호를 확인하여 주십시오.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField layoutX="200.0" layoutY="315.0" />
+            <Label layoutX="80.0" layoutY="320.0" text="이메일">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="80.0" layoutY="365.0" text="휴대폰">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField layoutX="295.0" layoutY="360.0" prefHeight="29.0" prefWidth="62.0" />
+            <ComboBox fx:id="phone" layoutX="200.0" layoutY="360.0" prefHeight="29.0" prefWidth="87.0" promptText="010">
+               <items>
+                  <FXCollections fx:factory="observableArrayList">
+                     <String fx:value="011" />
+                     <String fx:value="017" />
+                     <String fx:value="019" />
+                  </FXCollections>
+               </items>
+            </ComboBox>
+            <TextField layoutX="365.0" layoutY="360.0" prefHeight="29.0" prefWidth="62.0" />
+            <RadioButton fx:id="woman" layoutX="329.0" layoutY="456.0" mnemonicParsing="false" text="여">
+               <toggleGroup>
+                  <ToggleGroup fx:id="gen" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="man" layoutX="202.0" layoutY="456.0" mnemonicParsing="false" text="남" toggleGroup="$gen" />
+            <Label layoutX="80.0" layoutY="410.0" text="생년월일">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="year" editable="true" layoutX="200.0" layoutY="405.0" prefHeight="29.0" prefWidth="87.0" promptText="2018">
+            </ComboBox>
+            <ComboBox fx:id="month" editable="true" layoutX="295.0" layoutY="405.0" prefHeight="29.0" prefWidth="67.0" promptText="10">
+               <items>
+                  <FXCollections fx:factory="observableArrayList">
+
+                  </FXCollections>
+               </items>
+            </ComboBox>
+            <ComboBox fx:id="day" editable="true" layoutX="372.0" layoutY="405.0" prefHeight="29.0" prefWidth="67.0" promptText="10">
+               <items>
+                  <FXCollections fx:factory="observableArrayList">
+
+                  </FXCollections>
+               </items>
+            </ComboBox>
+            <Label layoutX="80.0" layoutY="455.0" text="성   별">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Separator layoutX="1.0" layoutY="165.0" prefHeight="18.0" prefWidth="650.0" />
+            <Separator layoutX="1.0" layoutY="299.0" prefHeight="18.0" prefWidth="650.0" />
+            <Separator layoutX="1.0" layoutY="219.0" prefHeight="18.0" prefWidth="650.0" />
+            <Separator layoutX="4.0" layoutY="344.0" prefHeight="18.0" prefWidth="650.0" />
+            <Separator layoutX="4.0" layoutY="389.0" prefHeight="18.0" prefWidth="650.0" />
+            <Separator layoutX="4.0" layoutY="436.0" prefHeight="18.0" prefWidth="650.0" />
+            <Separator layoutX="4.0" layoutY="482.0" prefHeight="18.0" prefWidth="650.0" />
+            <PasswordField layoutX="200.0" layoutY="235.0" />
+            <PasswordField layoutX="200.0" layoutY="270.0" />
+            <Label layoutX="375.0" layoutY="318.0" text="\@">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="reg" layoutX="149.0" layoutY="561.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="353.0" text="가입하기">
+               <font>
+                  <Font size="55.0" />
+               </font>
+            </Button>
+ 
+      </children>
+   </Pane>
+   </children>
+</VBox>

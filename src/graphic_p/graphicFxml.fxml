@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="1000.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphic_p.GraphicFxmlMain">
+   <top>
+      <Pane prefHeight="609.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+         <children>
+            <Circle fx:id="cir" fill="DODGERBLUE" focusTraversable="true" layoutX="348.0" layoutY="214.0" opacity="0.54" radius="152.0" stroke="RED" strokeType="INSIDE" strokeWidth="10.0" />
+            <Rectangle fx:id="rec" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="29.0" layoutY="70.0" rotate="-45.0" stroke="#05ff37" strokeType="INSIDE" strokeWidth="10.0" width="200.0" />
+            <Arc fx:id="packman" centerX="10.0" fill="DODGERBLUE" layoutX="625.0" layoutY="300.0" length="360.0" radiusX="100.0" radiusY="100.0" stroke="#c3ff00" strokeType="INSIDE" strokeWidth="10.0" type="ROUND" />
+            <CubicCurve controlX1="-50.0" controlX2="100.0" controlY1="-150.0" controlY2="200.0" endX="150.0" fill="DODGERBLUE" layoutX="288.0" layoutY="426.0" startX="-150.0" stroke="BLACK" />
+            <Button fx:id="btnrec" layoutX="31.0" layoutY="33.0" mnemonicParsing="false" text="btnrec" />
+            <Button fx:id="packbtn" layoutX="569.0" layoutY="171.0" mnemonicParsing="false" text="Button" />
+         </children>
+      </Pane>
+   </top>
+</BorderPane>

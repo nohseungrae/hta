@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphic_p.Lion">
+   <children>
+      <Group layoutX="3.0" layoutY="2.0">
+         <children>
+            <Line endX="130.0" layoutX="217.0" layoutY="147.0" rotate="30.0" startX="35.0" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="10.0" />
+            <Ellipse layoutX="299.0" layoutY="144.0" radiusX="30.0" radiusY="30.0" rotate="125.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="5.0" />
+            <Line endX="-20.0" endY="1.0" fill="WHITE" layoutX="295.0" layoutY="139.0" rotate="30.0" startX="35.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="10.0" />
+         </children>
+      </Group>
+      <Ellipse fill="#d39009" layoutX="203.0" layoutY="156.0" radiusX="25.0" radiusY="20.0" rotate="51.8" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="5.0" />
+      <ImageView disable="true" fitHeight="633.0" fitWidth="340.0" layoutX="87.0" layoutY="-121.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../ppp/라이언.jpg" />
+         </image>
+      </ImageView>
+      <Ellipse fill="#d39009" layoutX="250.0" layoutY="224.0" radiusX="97.0" radiusY="89.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" />
+      <Arc fill="DODGERBLUE" layoutX="-150.0" layoutY="284.0" length="180.0" radiusX="61.0" radiusY="40.0" rotate="-2.0" startAngle="180.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Line layoutX="189.0" layoutY="195.0" startX="35.0" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="7.0" />
+      <Group layoutX="2.0" layoutY="1.0">
+         <children>
+            <Arc fill="WHITE" layoutX="236.0" layoutY="249.0" length="270.0" radiusX="18.0" radiusY="17.0" startAngle="45.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="5.0" />
+            <Arc fill="WHITE" layoutX="266.0" layoutY="249.0" length="270.0" radiusX="18.0" radiusY="17.0" rotate="180.0" startAngle="45.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="5.0" />
+         </children>
+      </Group>
+      <Line layoutX="271.0" layoutY="195.0" startX="35.0" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="7.0" />
+      <Circle layoutX="289.0" layoutY="218.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="6.0" />
+      <Circle layoutX="212.0" layoutY="218.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="6.0" />
+      <Circle layoutX="250.0" layoutY="237.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="7.0" />
+      <Sphere layoutX="-212.0" layoutY="135.0" radius="0.77" />
+      <Arc layoutX="253.0" layoutY="316.0" length="45.0" radiusX="40.0" radiusY="40.0" rotate="90.0" startAngle="70.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" type="CHORD" />
+      <Line layoutX="147.0" layoutY="293.0" rotate="-20.0" startX="35.0" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="7.0" />
+      <Line layoutX="322.0" layoutY="290.0" rotate="22.6" startX="35.0" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="7.0" />
+      <Arc layoutX="274.0" layoutY="337.0" length="45.0" radiusX="40.0" radiusY="40.0" rotate="-90.0" startAngle="155.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" type="ROUND" />
+   </children>
+</Pane>

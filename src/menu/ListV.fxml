@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.collections.FXCollections?>
+
+<BorderPane prefHeight="382.0" prefWidth="452.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" 
+fx:controller="menu.ListViewController">
+	<bottom>
+      <Pane>
+         <children>
+      		<Button fx:id="btn" layoutX="62.0" mnemonicParsing="false" text="-&gt;" BorderPane.alignment="CENTER" />
+            <Button fx:id="btn1" layoutX="330.0" mnemonicParsing="false" text="&lt;-" />
+         </children>
+      </Pane>
+	</bottom>
+   <top>
+      <Label fx:id="label2" text="메뉴" BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+		<ListView fx:id="list" prefHeight="284.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+			<items>
+				<FXCollections fx:factory="observableArrayList">
+					<String fx:value="짜장" />
+					<String fx:value="짬뽕" />
+					<String fx:value="탕슉" />
+					<String fx:value="볶음밥" />
+					<String fx:value="깐풍기" />
+					<String fx:value="깐쇼새우" />
+				</FXCollections>
+			</items>
+		</ListView>
+   </left>
+   <right>
+      <ListView fx:id="list1" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+
+      </ListView>
+   </right>
+</BorderPane>

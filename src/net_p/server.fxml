@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" 
+fx:controller="net_p.ClientController">
+   <children>
+      <Button fx:id="login" layoutX="125.0" layoutY="257.0" mnemonicParsing="false" text="접속" />
+      <TextField fx:id="port" layoutX="64.0" layoutY="47.0" />
+      <TextField fx:id="ipadress" layoutX="64.0" layoutY="93.0" />
+      <TextField fx:id="window" layoutX="64.0" layoutY="150.0" prefHeight="93.0" prefWidth="172.0" />
+   </children>
+</AnchorPane>

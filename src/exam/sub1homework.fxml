@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exam.Sub1HomeworkController">
+   <children>
+      <ImageView fitHeight="300.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../ppp/영어문제2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="next" layoutX="851.0" layoutY="157.0" mnemonicParsing="false" onAction="#sub2Go" text="▶" />
+      <Button fx:id="before" layoutX="807.0" layoutY="157.0" mnemonicParsing="false" onAction="#backgo" text="◀" />
+      <Group>
+         <children>
+            <RadioButton fx:id="second" layoutX="39.0" layoutY="89.0" mnemonicParsing="false">
+               <toggleGroup>
+                  <ToggleGroup fx:id="gg" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="fourth" layoutX="40.0" layoutY="157.0" mnemonicParsing="false" toggleGroup="$gg" />
+            <RadioButton fx:id="first" layoutX="39.0" layoutY="54.0" mnemonicParsing="false" toggleGroup="$gg" />
+            <RadioButton fx:id="third" layoutX="39.0" layoutY="123.0" mnemonicParsing="false" toggleGroup="$gg" />
+         </children>
+      </Group>
+   </children>
+</AnchorPane>
